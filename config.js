@@ -41,7 +41,7 @@ module.exports = {
     ANTI_BOT: process.env.ANTI_BOT || '',
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '6/10', // msgs/sec
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(edit AUTOUNMUTE_MSG)_',
-    AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || false,
+    AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || true,
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
@@ -51,7 +51,7 @@ module.exports = {
     SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '923074060856-1632403322@g.us,120363116963909366@g.us',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+    BOT_INFO: process.env.BOT_INFO || '✯𝐍𝐚𝐰𝐚𝐛𝐙𝐚𝐚𝐃𝐚𝐚✯𝘽𝙊𝙏;KING;0;https://i.imgur.com/j8Eqv2q.jpeg;https://chat.whatsapp.com/KhZQtcBal1yIQJGvAAWbAC',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '92,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
